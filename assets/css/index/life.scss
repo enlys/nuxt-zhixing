@@ -1,0 +1,95 @@
+.m-life{
+    .m-life-pic{
+        margin:10px 10px 10px 0;
+        width:150px;
+        height:240px;
+        background:url(https://img3.mukewang.com/szimg/5cb9976e08f6b07206000338-360-202.jpg);
+        background-size:150px;
+    }
+    .m-life-login{
+        margin:10px 0 10px 0;
+        box-sizing:border-box;
+        height:240px;
+        background:#fff;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding:30px;
+
+        .m-life-login-name {
+          margin-bottom: 10px;
+        }
+        button{
+          width: 118px;
+          margin: 5px;
+        }
+        h4 {
+          img {
+            width: 47px;
+            height: 47px;
+            border-radius: 50%;
+            border: 4px solid #E5E5E5;
+          }
+        }
+
+        p>button {
+          width: 120px;
+          margin-bottom: 15px;
+        }
+    }
+    .m-life-hotel,
+    .m-life-music {
+      height: 165px;
+      background: url(https://img4.mukewang.com/szimg/5b3082da0001d7e905400300-360-202.jpg);
+      background-size: 270px;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    .m-life-music {
+      background: url(https://img4.mukewang.com/szimg/5cbf00c608f52a3b06000338-360-202.jpg);
+      margin-left:0;
+    }
+
+    .m-life-coop {
+      background: url(https://class.imooc.com/static/module/index/img/fe-new-1.png);
+      width: 150px;
+      height: 165px;
+      background-size: 150px;
+    }
+    .m-life-downapp{
+        background:#fff;
+        height:165px;
+        text-align:center;
+
+        img {
+          width: 95px;
+          height: 95px;
+          margin-top: 10px;
+        }
+
+        p {
+          font-size: 16px;
+          color: #222;
+          font-weight: 500;
+        }
+
+        h4 {
+          font-size: 12px;
+          font-weight: 500;
+          margin-top: 2px;
+
+          span {
+            color: #EC5330;
+            margin-right: 5px;
+          }
+
+          em {
+            color: #3f3f3f;
+            font-style: normal;
+          }
+        }
+    }
+}
